@@ -12,3 +12,4 @@ if (!window["App"]) throw new Error("Critical Error in Application");
 
    var header, panel;
 var save = function(){ //Функция сохранения изменений в анкете
+  if (!panel.container['form'].pharmId) return false;
