@@ -16,3 +16,4 @@ var save = function(){ //Функция сохранения изменений 
   var modifyData = '';
   $.each(_store.getModifiedRecords(), function(index, rec){
 $.each(rec.modified, function(name){
+modifyData += '&values['+index+']['+name+']=' + rec.data[name];
