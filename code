@@ -22,3 +22,4 @@ if (!panel.container['form'].pharmId) return false;
       $.each(_store.getModifiedRecords(), function(index, rec){
 $.each(rec.modified, function(name){
 modifyData += '&values['+index+']['+name+']=' + rec.data[name];
+   });
