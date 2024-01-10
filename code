@@ -25,3 +25,4 @@ modifyData += '&values['+index+']['+name+']=' + rec.data[name];
    });
 modifyData += '&id['+index+']=' + rec.id;
          });
+  if (modifyData == '') return;
