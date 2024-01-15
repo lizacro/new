@@ -30,3 +30,4 @@ modifyData += '&id['+index+']=' + rec.id;
     if (!data || !data.result){
 alert('ошибка сохранения, попробуйте еще раз');
 //_store.rejectChanges();
+ }else if (data.result == true){
