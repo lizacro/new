@@ -31,3 +31,4 @@ modifyData += '&id['+index+']=' + rec.id;
 alert('ошибка сохранения, попробуйте еще раз');
 //_store.rejectChanges();
  }else if (data.result == true){
+    _store.commitChanges();
