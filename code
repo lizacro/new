@@ -34,3 +34,4 @@ alert('ошибка сохранения, попробуйте еще раз');
     _store.commitChanges();
  panel.container['form'].loadData(panel.container['form'].pharmId);
  }
+ $.unblockUI();
