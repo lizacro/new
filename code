@@ -23,3 +23,4 @@ var modifyData = '';
   $.each(rec.modified, function(name){
 modifyData += '&values['+index+']['+name+']=' + rec.data[name];
   });
+ modifyData += '&id['+index+']=' + rec.id;
